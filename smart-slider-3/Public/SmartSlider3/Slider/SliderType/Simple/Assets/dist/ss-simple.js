@@ -674,6 +674,12 @@ _ready(function () {
 
         _N2.MW.___setValues(slide.SMWs, {x: 0, y: 0});
         _NodeRemoveAttribute(slide.background.element, 'aria-hidden');
+
+        /**
+         * Start background videos
+         * @see SSDEV-4090
+         */
+        slide.background.preLoad();
     };
 
     SmartSliderMainAnimationSimple.prototype.cleanSlideIndex = function (slideIndex) {

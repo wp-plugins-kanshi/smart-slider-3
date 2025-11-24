@@ -4,7 +4,7 @@ Tags: slider, image slider, gallery, slideshow, carousel slider
 Donate link: https://sites.fastspring.com/nextend/product/smartslider3donate
 Requires at least: 5.0
 Tested up to: 6.8.3
-Stable tag: 3.5.1.30
+Stable tag: 3.5.1.31
 Requires PHP: 7.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -217,6 +217,10 @@ Of course! Smart Slider use protocol relative urls which works fine on http:// a
 
 == Changelog ==
 
+= 3.5.1.31 - 19. November 2025 =
+* Feature: Gutenberg block updated to v3 API.
+* Other: Black Friday notification added.
+
 = 3.5.1.30 - 21. October 2025 =
 * Feature: Alt tags for Youtube and Vimeo layer cover images.
 * Feature: Aria-hidden attribute added to not active slide backgrounds.
@@ -330,194 +334,194 @@ Of course! Smart Slider use protocol relative urls which works fine on http:// a
 
 = 3.5.1.13 - 30. January 2023 =
 * Feature: Google font list is updated.
-* Feature: Youtube layer will support youtube-nocookie.com urls too. But you should note, that still the YouTube And Vimeo Privacy Enhanced Mode setting defines, whether your videos come from youtube.com or from youtube-nocookie.com! 
-* Feature: Private Vimeo url support for Lightbox. 
-* Fix: Not selecting a slider in Avada Builder could cause PHP errors. 
-* Fix: Compatibility fix for WoodMart theme. 
-* Fix: MySQL 8.0 compatibility fix, where "system" is a reserved keyword so we'll no longer use it as a column name. 
-* Fix: Divi module changes ensure that Divi sets the proper slider. (You might need to re-pick your sliders, if you haven't changed the default value at the Divi module, as in that case your slider was not saved.) 
-* Fix: Avada Builder compatibility fix to ensure that the slider loads properly into the builder. 
-* Fix: On the Smart Slider admin area the shortcode did not appear correctly when Gutenberg's "edit slider" button was leading you to the slider settings page. 
-* Other: Russian translation update. 
+* Feature: Youtube layer will support youtube-nocookie.com urls too. But you should note, that still the YouTube And Vimeo Privacy Enhanced Mode setting defines, whether your videos come from youtube.com or from youtube-nocookie.com!
+* Feature: Private Vimeo url support for Lightbox.
+* Fix: Not selecting a slider in Avada Builder could cause PHP errors.
+* Fix: Compatibility fix for WoodMart theme.
+* Fix: MySQL 8.0 compatibility fix, where "system" is a reserved keyword so we'll no longer use it as a column name.
+* Fix: Divi module changes ensure that Divi sets the proper slider. (You might need to re-pick your sliders, if you haven't changed the default value at the Divi module, as in that case your slider was not saved.)
+* Fix: Avada Builder compatibility fix to ensure that the slider loads properly into the builder.
+* Fix: On the Smart Slider admin area the shortcode did not appear correctly when Gutenberg's "edit slider" button was leading you to the slider settings page.
+* Other: Russian translation update.
 
 = 3.5.1.12 - 15. November 2022 =
 * Feature: New [Slide Library theme](https://smartslider.helpscoutdocs.com/article/1765-slide-editor#slide-library): Nala.
-* Fix: RankMath SEO compatibility that caused problems within the Media Library in certain configurations. 
-* Fix: The last column could be deleted from the row if the row had a nested layer causing errors. 
-* Fix: The notice at the Change Slider Type modal was fixed so it no longer writes out HTML code but actually bolds the texts. 
-* Fix: Output buffer fix to avoid WP-CLI issues. 
-* Fix: Ionos performance compatibility. 
-* Fix: Usercentrics cookie consent plugin compatibility. 
-* Fix: WP Rocket compatibility that makes Smart Slider automatically excluded from WP Rocket's Delay JavaScript execution feature. 
-* Fix: Compatibility fix for Zoho CRM Lead Magnet plugin. 
-* Fix: Smart Slider will no longer break if CUSTOM_TAGS is defined. 
-* Fix: Default value is set to Smart Slider Divi module to ensure proper slider selection. 
-* Fix: Improved security to avoid Javascript codes from admin area fields. 
+* Fix: RankMath SEO compatibility that caused problems within the Media Library in certain configurations.
+* Fix: The last column could be deleted from the row if the row had a nested layer causing errors.
+* Fix: The notice at the Change Slider Type modal was fixed so it no longer writes out HTML code but actually bolds the texts.
+* Fix: Output buffer fix to avoid WP-CLI issues.
+* Fix: Ionos performance compatibility.
+* Fix: Usercentrics cookie consent plugin compatibility.
+* Fix: WP Rocket compatibility that makes Smart Slider automatically excluded from WP Rocket's Delay JavaScript execution feature.
+* Fix: Compatibility fix for Zoho CRM Lead Magnet plugin.
+* Fix: Smart Slider will no longer break if CUSTOM_TAGS is defined.
+* Fix: Default value is set to Smart Slider Divi module to ensure proper slider selection.
+* Fix: Improved security to avoid Javascript codes from admin area fields.
 
 
 = 3.5.1.11 - 03. October 2022 =
-* Feature: Notice, when NONCE_SALT constant is not defined. 
-* Feature: YouTube layer will support YouTube shorts URLs too. 
-* Feature: The Export at the Bulk Actions will no longer create a zip file when only one slider is exported. 
+* Feature: Notice, when NONCE_SALT constant is not defined.
+* Feature: YouTube layer will support YouTube shorts URLs too.
+* Feature: The Export at the Bulk Actions will no longer create a zip file when only one slider is exported.
 * Feature: Notice when the Autoplay is enabled in a slider that contains a single slide.
 * Fix: Improved security during slider import
-* Fix: Analyze and Repair now fix auto_increment issues within the slider's tables. 
-* Fix: Split by words advanced generator function caused PHP error, when the length of the word was shorter than the start value. 
-* Fix: Better specify Functions.php location to avoid problems in certain cases. 
-* Fix: Finish autoplay did not stop at last slide, when carousel was turned off. 
-* Fix: Improved check for minimum system requirements. 
-* Fix: Save Fonts Locally option at Google fonts didn't work. 
-* Fix: ?ver query string added to the CSS file the Save Fonts Locally option generates. 
-* Other: The minimum WordPress version Smart Slider requires is now 5.0. (WordPress 6.x is supported, too.) 
-* Other: The Spanish translation is updated. Thanks, Rodrigo! 
+* Fix: Analyze and Repair now fix auto_increment issues within the slider's tables.
+* Fix: Split by words advanced generator function caused PHP error, when the length of the word was shorter than the start value.
+* Fix: Better specify Functions.php location to avoid problems in certain cases.
+* Fix: Finish autoplay did not stop at last slide, when carousel was turned off.
+* Fix: Improved check for minimum system requirements.
+* Fix: Save Fonts Locally option at Google fonts didn't work.
+* Fix: ?ver query string added to the CSS file the Save Fonts Locally option generates.
+* Other: The minimum WordPress version Smart Slider requires is now 5.0. (WordPress 6.x is supported, too.)
+* Other: The Spanish translation is updated. Thanks, Rodrigo!
 
 
 = 3.5.1.9 - 19. August 2022 =
-* Feature: Improved notice when the Autoplay is used on a single slide to avoid confusion. 
-* Feature: u tag is now allowed in text layer. 
+* Feature: Improved notice when the Autoplay is used on a single slide to avoid confusion.
+* Feature: u tag is now allowed in text layer.
 * Fix: PHP 8.1. compatibility fixes.
 * Fix: Allow data protocol when Jetpack is active to avoid it removing the arrows and other base64 images.
 * Fix: Major overhaul of the way the plugin deals with options. This should fix a some bugs and provide improved security.
-* Other: Spanish translation updated. Thanks, Rodrigo! 
-* Other: Dutch translation updated. Thanks, Frank! 
-* Other: PHP related conflicts were renamed at the Debug Information to more accurately reflect the cause of the conflict. 
+* Other: Spanish translation updated. Thanks, Rodrigo!
+* Other: Dutch translation updated. Thanks, Frank!
+* Other: PHP related conflicts were renamed at the Debug Information to more accurately reflect the cause of the conflict.
 
 = 3.5.1.7 - 26. May 2022 =
-* Fix: Major overhaul of the way the plugin deals with options. This should fix a some bugs and provide improved security. To enhance security the "JavaScript callbacks" option was removed. If you need to write custom codes to manipulate the slider [follow this guide](https://smartslider.helpscoutdocs.com/article/2089-how-to-write-your-own-javascript-code) to learn how. 
-* Fix: Improved check for valid values at layer content and name. 
-* Fix: Aria-role attribute is renamed to role. 
-* Fix: UIPress.co compatibility. 
+* Fix: Major overhaul of the way the plugin deals with options. This should fix a some bugs and provide improved security. To enhance security the "JavaScript callbacks" option was removed. If you need to write custom codes to manipulate the slider [follow this guide](https://smartslider.helpscoutdocs.com/article/2089-how-to-write-your-own-javascript-code) to learn how.
+* Fix: Improved check for valid values at layer content and name.
+* Fix: Aria-role attribute is renamed to role.
+* Fix: UIPress.co compatibility.
 * Fix: Grabbing cursor now properly displays when the slides are switching with mouse grabbing.
-* Fix: Fix for a Deprecated: preg_match(): Passing null to parameter #4 error in rare cases. 
-* Fix: The CSS code that hides the Bullet thumbnail was strengthened to avoid 3rd party codes overriding it and messing up the layout. 
-* Fix: The style tag for the Slide CSS will only be added to the HTML if it has any content. 
-* Fix: The old default family, Montserrat is not used anymore at the backend so its call was removed. 
-* Fix: Elementor has deprecated the controls_registered method so from 3.6.0 and above we use the new register method to include the Smart Slider widget to Elementor. 
-* Fix: Compatibility fix for Divi on PHP 8. 
-* Other: Translation related improvements, including unifying texts that do the same action on different places. 
+* Fix: Fix for a Deprecated: preg_match(): Passing null to parameter #4 error in rare cases.
+* Fix: The CSS code that hides the Bullet thumbnail was strengthened to avoid 3rd party codes overriding it and messing up the layout.
+* Fix: The style tag for the Slide CSS will only be added to the HTML if it has any content.
+* Fix: The old default family, Montserrat is not used anymore at the backend so its call was removed.
+* Fix: Elementor has deprecated the controls_registered method so from 3.6.0 and above we use the new register method to include the Smart Slider widget to Elementor.
+* Fix: Compatibility fix for Divi on PHP 8.
+* Other: Translation related improvements, including unifying texts that do the same action on different places.
 * Other: Spanish translation is updated. Thanks, Rodrigo!
 
 = 3.5.1.4 - 28. Feburary 2022 =
-* Feature: Save Fonts Locally option to cache Google Fonts. 
-* Fix: Updating from really old Smart Slider versions might caused a PHP notice to appear.      
-* Fix: Smart Slider element doesn't work within Elementor Pro when WooCommerce is also installed on the website. 
-* Fix: Weglot plugin's language switcher appeared in page builder created sliders. 
-* Fix: Mobile Firefox slide swiping didn't worked well, as mobile Firefox won't allow to stop page scroll any longer. 
+* Feature: Save Fonts Locally option to cache Google Fonts.
+* Fix: Updating from really old Smart Slider versions might caused a PHP notice to appear.
+* Fix: Smart Slider element doesn't work within Elementor Pro when WooCommerce is also installed on the website.
+* Fix: Weglot plugin's language switcher appeared in page builder created sliders.
+* Fix: Mobile Firefox slide swiping didn't worked well, as mobile Firefox won't allow to stop page scroll any longer.
 * Fix: Better error handling for cases when the WebP support is disabled on the server to avoid PHP errors.
-* Fix: Dynamic slides didn't accepted variables in color fields. 
-* Fix: WordPress posts generator code optimization and Elementor compatibility. 
-* Fix: n2-clear class added to the main div that contains the ss3-force-full-width and ss3-fullpage elements to make the Clear Before option work properly. 
-* Fix: Smart Slider display fixed in Tatsu builder. 
-* Fix: Compatibility fix for lower WordPress versions which use the classic widgets. 
-* Deprecated: Slider's Inline JavaScript option. 
-* Other: Spanish translation updated. Thanks, Rodrigo! 
-* Other: Google font list updated with latest fonts 
-* Other: Links updated in the Help Section to point to more appropriate help articles. 
+* Fix: Dynamic slides didn't accepted variables in color fields.
+* Fix: WordPress posts generator code optimization and Elementor compatibility.
+* Fix: n2-clear class added to the main div that contains the ss3-force-full-width and ss3-fullpage elements to make the Clear Before option work properly.
+* Fix: Smart Slider display fixed in Tatsu builder.
+* Fix: Compatibility fix for lower WordPress versions which use the classic widgets.
+* Deprecated: Slider's Inline JavaScript option.
+* Other: Spanish translation updated. Thanks, Rodrigo!
+* Other: Google font list updated with latest fonts
+* Other: Links updated in the Help Section to point to more appropriate help articles.
 
 
 = 3.5.1.3 - 18. January 2022 =
-* Feature: Pagination and Search options in the Dashboard. 
-* Feature: The variable selector is now available at the column and row background colors. 
-* Feature: We'll use pointer cursor at the thumbnails to indicate that they're clickable. 
-* Feature: Perfmatter compatibility improvements. 
-* Fix: Overflow hidden is added to vertical thumbnails to allow rounded borders. 
-* Fix: Firefox changed the default background color of the select tag, which creates less contrast between the text and background. We changed it back to white. 
-* Fix: The color picker allowed saving a 7 digit color code, which resulted a bad color. 
-* Fix: Margin and padding values are now translatable in the Slide editor UI.  
-* Fix: Optimize images option now works on full URLs. 
-* Fix: The YouTube layer didn't always recognize the youtu.be URLs properly. 
-* Fix: Static Overlay background options caused error when the only slide in the slider is a Static Overlay. 
-* Fix: Smart Slider's custom widget area will now properly display the publishing instructions. 
-* Fix: Background Blur could show up even if the fill mode was not set to Blur fit. 
-* Other: Spanish translation updated. Thanks, Rodrigo! 
-* Other: The es_ES.po and es_ES.mo renamed to es.po and es.mo respectively to support all Spanish languages. 
+* Feature: Pagination and Search options in the Dashboard.
+* Feature: The variable selector is now available at the column and row background colors.
+* Feature: We'll use pointer cursor at the thumbnails to indicate that they're clickable.
+* Feature: Perfmatter compatibility improvements.
+* Fix: Overflow hidden is added to vertical thumbnails to allow rounded borders.
+* Fix: Firefox changed the default background color of the select tag, which creates less contrast between the text and background. We changed it back to white.
+* Fix: The color picker allowed saving a 7 digit color code, which resulted a bad color.
+* Fix: Margin and padding values are now translatable in the Slide editor UI.
+* Fix: Optimize images option now works on full URLs.
+* Fix: The YouTube layer didn't always recognize the youtu.be URLs properly.
+* Fix: Static Overlay background options caused error when the only slide in the slider is a Static Overlay.
+* Fix: Smart Slider's custom widget area will now properly display the publishing instructions.
+* Fix: Background Blur could show up even if the fill mode was not set to Blur fit.
+* Other: Spanish translation updated. Thanks, Rodrigo!
+* Other: The es_ES.po and es_ES.mo renamed to es.po and es.mo respectively to support all Spanish languages.
 
 
 = 3.5.1.2 - 18. November 2021 =
-* Feature: The old background animations are allowed again when the fill mode is not fill, but anything else. 
-* Feature: You can now customize the Loading animation delay time. 
-* Fix: Image layer box shadow now shows up in the Slide Editor. 
-* Fix: We fixed an error that happened because Elementor has deprecated the _content_template method we used to create our Elementor Widget. 
-* Fix: Compatibility fixes with Perfmatters. 
-* Fix: The old Smart Slider WordPress widget can be moved back to Elementor using the SMART_SLIDER_ELEMENTOR_WIDGET_ALLOWED constant. As a result the sliders won't be missing after the 3.4.1.7 update. 
-* Fix: The slider resize didn't always get triggered on mobile when the device was rotated. 
-* Fix: The When ended → Go to next slide option will no longer trigger the Scroll to slider behavior at the video layers. 
-* Other: Dutch translation added. Thanks, Frank! 
-* Other: Spanish translation updated. Thanks, Rodrigo! 
+* Feature: The old background animations are allowed again when the fill mode is not fill, but anything else.
+* Feature: You can now customize the Loading animation delay time.
+* Fix: Image layer box shadow now shows up in the Slide Editor.
+* Fix: We fixed an error that happened because Elementor has deprecated the _content_template method we used to create our Elementor Widget.
+* Fix: Compatibility fixes with Perfmatters.
+* Fix: The old Smart Slider WordPress widget can be moved back to Elementor using the SMART_SLIDER_ELEMENTOR_WIDGET_ALLOWED constant. As a result the sliders won't be missing after the 3.4.1.7 update.
+* Fix: The slider resize didn't always get triggered on mobile when the device was rotated.
+* Fix: The When ended → Go to next slide option will no longer trigger the Scroll to slider behavior at the video layers.
+* Other: Dutch translation added. Thanks, Frank!
+* Other: Spanish translation updated. Thanks, Rodrigo!
 
 
 = 3.5.1.1 - 20. October 2021 =
-* Feature: Background blur option for the Blur fit fill mode. 
-* Fix: Divi Builder plugin has strong codes so we use a special ss-p tag to display the texts. An issue was fixed related to these ss-p tags that made them display incorrectly. 
-* Fix: Focus incorrectly stayed on the arrow after slide switching. 
-* Fix: Arrows could get highlighted in Safari. 
-* Other: Better handling of the translation files. 
+* Feature: Background blur option for the Blur fit fill mode.
+* Fix: Divi Builder plugin has strong codes so we use a special ss-p tag to display the texts. An issue was fixed related to these ss-p tags that made them display incorrectly.
+* Fix: Focus incorrectly stayed on the arrow after slide switching.
+* Fix: Arrows could get highlighted in Safari.
+* Other: Better handling of the translation files.
 * Other: French translation added. Thanks, Jean-Francois!
 
 = 3.5.1.0 - 5. October 2021 =
-* Fix: 100% wide image layer appeared wrong when it had a link on it. 
-* Fix: Text Scale option could create different result in Preview and Editor in extreme cases. 
-* Fix: Column calculation adjusted for better responsive accuracy. 
-* Fix: When the Autoplay is enabled and only one slide is available, this one slide is duplicated to allow the autoplay to work. From now on the dynamic slides are skipped from this process. If there's a dynamic slide that displays a single slide only, that won't be duplicated for the autoplay. 
-* Fix: Translate URL now works on the background image of the Content layer. 
-* Fix: We adjusted the strength of the CSS codes affecting the Thumbnail control's images to avoid 3rd party codes hiding them. 
-* Fix: A wrong path could be generated for the resized thumbnail image at the backend in rare cases. 
-* Fix: Rank Math SEO integration adjusted to avoid possible JavaScript errors at custom post types.  
-* Other: Spanish translation has been updated. Thanks, Rodrigo! 
+* Fix: 100% wide image layer appeared wrong when it had a link on it.
+* Fix: Text Scale option could create different result in Preview and Editor in extreme cases.
+* Fix: Column calculation adjusted for better responsive accuracy.
+* Fix: When the Autoplay is enabled and only one slide is available, this one slide is duplicated to allow the autoplay to work. From now on the dynamic slides are skipped from this process. If there's a dynamic slide that displays a single slide only, that won't be duplicated for the autoplay.
+* Fix: Translate URL now works on the background image of the Content layer.
+* Fix: We adjusted the strength of the CSS codes affecting the Thumbnail control's images to avoid 3rd party codes hiding them.
+* Fix: A wrong path could be generated for the resized thumbnail image at the backend in rare cases.
+* Fix: Rank Math SEO integration adjusted to avoid possible JavaScript errors at custom post types.
+* Other: Spanish translation has been updated. Thanks, Rodrigo!
 
 
 = 3.5.0.11 - 13. September 2021 =
-* Feature: The "Block carousel" feature is now available for free users as well. 
-* Feature: Gutenberg block toolbar is available at the slider. Also, there's an option to go to the slide editor directly from the block. 
-* Feature: Pressing enter on any control will trigger the control's action, as if it was clicked. 
-* Fix: Force full width sliders weren't always properly positioned in Divi. 
-* Fix: SVG paths were wrong in the HTML export of the slider. 
-* Fix: Fix for an output buffer problem related to Themeco Pro theme. 
-* Fix: Fix for a conflict between "Scroll To Slider" and "Use as Anchor > Smooth scroll" that created a weird scrolling. 
-* Fix: The image size box overlapped the thumbnail text on RTL UI. 
-* Fix: Long slider names are cropped when copied/duplicated, to ensure that the new slider can be created. 
-* Fix: PHP 8 compatibility fix to avoid Heading layers creating hdiv tag. 
-* Fix: On WordPress multisite installation only administrators can have unfiltered_html capability, which is required to be able to access the slider. We've modified the error message to reflect this.  
-* Fix: Some Google fonts contain space character, which wasn't properly encoded. 
-* Fix: Minimum height CSS won't be added if the value is 0 or smaller. 
-* Fix: We added 50MS timeout to HTMLImageElement.decode() as its promise wasn't always resolved in Safari. 
-* Fix: Outer positioned controls could create scrollbar, especially on small screens. 
-* Removed: Google font subsets are now removed, as in a browser that supports unicode-range the subset is dynamically served, there's no need to force it.  
+* Feature: The "Block carousel" feature is now available for free users as well.
+* Feature: Gutenberg block toolbar is available at the slider. Also, there's an option to go to the slide editor directly from the block.
+* Feature: Pressing enter on any control will trigger the control's action, as if it was clicked.
+* Fix: Force full width sliders weren't always properly positioned in Divi.
+* Fix: SVG paths were wrong in the HTML export of the slider.
+* Fix: Fix for an output buffer problem related to Themeco Pro theme.
+* Fix: Fix for a conflict between "Scroll To Slider" and "Use as Anchor > Smooth scroll" that created a weird scrolling.
+* Fix: The image size box overlapped the thumbnail text on RTL UI.
+* Fix: Long slider names are cropped when copied/duplicated, to ensure that the new slider can be created.
+* Fix: PHP 8 compatibility fix to avoid Heading layers creating hdiv tag.
+* Fix: On WordPress multisite installation only administrators can have unfiltered_html capability, which is required to be able to access the slider. We've modified the error message to reflect this.
+* Fix: Some Google fonts contain space character, which wasn't properly encoded.
+* Fix: Minimum height CSS won't be added if the value is 0 or smaller.
+* Fix: We added 50MS timeout to HTMLImageElement.decode() as its promise wasn't always resolved in Safari.
+* Fix: Outer positioned controls could create scrollbar, especially on small screens.
+* Removed: Google font subsets are now removed, as in a browser that supports unicode-range the subset is dynamically served, there's no need to force it.
 * Other: A couple of strings were not translate-able, which is now fixed. [Want to translate Smart Slider?](https://smartslider.helpscoutdocs.com/article/1938-translation#translation)
 
 = 3.5.0.10 - 21. June 2021 =
-* Feature: Smart Slider displays a preview image in Gutenberg's Add Block panel 
-* Feature: New Google fonts added to the font suggestion list. 
-* Fix: Slide title and description are copped at Static Save to avoid reaching server limitation. 
-* Fix: From now on the Wrap After option won't be available on non-fullwidth rows, as they break automatically based on the space they need. 
-* Fix: Smart Slider now properly appears on Google's Mobile friendly test. 
-* Fix: Scale to left main animation didn't appear properly in the Free version. 
-* Fix: Compatibility fix for Yandex.News Feed by Teplitsa which wrongly fetched certain slide data. From now on no part of the slider appears in their fetch. 
-* Fix: Text bar will display the HTML codes in the Slide title and description field again. 
-* Fix: Outer right control position was wrong on RTL. 
-* Fix: Better check for RankMath dependency, so it won't be loaded on pages where RankMath doesn't loads its codes. 
-* Fix: Outer left and right controls had wrong width. From now on they'll have the same width as the slider. 
-* Fix: Themify builder conflict fixed with background videos 
-* Fix: The slider's force fullwidth calculation could position the slider wrongly when the slider was placed into another "force fullwith" container. 
-* Fix: Error handling for cases when the Top or Bottom focus selector is invalid. 
-* Fix: Allow transparent color as hover background. 
-* Fix: Pixel bug on the bottom of the slide in certain cases. 
-* Fix: Z-index fixes for the Simple and Block type to avoid 3rd parties modify the z-index of the background images. 
-* Fix: Better error handling for cases when the installation didn't run properly due to some database error. 
-* Fix: WP Bakery Frontend editor will display the slider again when Yoast is enabled. 
-* Fix: From now on the unfiltered_html capability is required to edit the slides on WordPress 
+* Feature: Smart Slider displays a preview image in Gutenberg's Add Block panel
+* Feature: New Google fonts added to the font suggestion list.
+* Fix: Slide title and description are copped at Static Save to avoid reaching server limitation.
+* Fix: From now on the Wrap After option won't be available on non-fullwidth rows, as they break automatically based on the space they need.
+* Fix: Smart Slider now properly appears on Google's Mobile friendly test.
+* Fix: Scale to left main animation didn't appear properly in the Free version.
+* Fix: Compatibility fix for Yandex.News Feed by Teplitsa which wrongly fetched certain slide data. From now on no part of the slider appears in their fetch.
+* Fix: Text bar will display the HTML codes in the Slide title and description field again.
+* Fix: Outer right control position was wrong on RTL.
+* Fix: Better check for RankMath dependency, so it won't be loaded on pages where RankMath doesn't loads its codes.
+* Fix: Outer left and right controls had wrong width. From now on they'll have the same width as the slider.
+* Fix: Themify builder conflict fixed with background videos
+* Fix: The slider's force fullwidth calculation could position the slider wrongly when the slider was placed into another "force fullwith" container.
+* Fix: Error handling for cases when the Top or Bottom focus selector is invalid.
+* Fix: Allow transparent color as hover background.
+* Fix: Pixel bug on the bottom of the slide in certain cases.
+* Fix: Z-index fixes for the Simple and Block type to avoid 3rd parties modify the z-index of the background images.
+* Fix: Better error handling for cases when the installation didn't run properly due to some database error.
+* Fix: WP Bakery Frontend editor will display the slider again when Yoast is enabled.
+* Fix: From now on the unfiltered_html capability is required to edit the slides on WordPress
 
 = 3.5.0.9 - 10. June 2021 =
-* Feature: From now on your can set an Alt tag for the Slide Thumbnail. 
-* Fix: Absolute positioned layers didn't rotate. 
-* Fix: Workaround adjusted for the Safari bug which makes non-fullwidth rows create unnecessary line wrap. 
-* Fix: Slider and slide title fields are sanitized. 
-* Fix: Arrow style didn't work in preview. 
-* Fix: Empty background color caused PHP error. 
-* Fix: Force fullwidth slider might appeared offscreen in rare cases. 
-* Fix: Compatibility fix for Admin 2020 plugin. 
-* Fix: Slider flickered in Gutenberg editor in rare cases. 
-* Fix: Nested, not full width Absolute layer width couldn't be changed. 
+* Feature: From now on your can set an Alt tag for the Slide Thumbnail.
+* Fix: Absolute positioned layers didn't rotate.
+* Fix: Workaround adjusted for the Safari bug which makes non-fullwidth rows create unnecessary line wrap.
+* Fix: Slider and slide title fields are sanitized.
+* Fix: Arrow style didn't work in preview.
+* Fix: Empty background color caused PHP error.
+* Fix: Force fullwidth slider might appeared offscreen in rare cases.
+* Fix: Compatibility fix for Admin 2020 plugin.
+* Fix: Slider flickered in Gutenberg editor in rare cases.
+* Fix: Nested, not full width Absolute layer width couldn't be changed.
 * Other: Editor role no longer gets access to Smart Slider on new installations.
 
 = 3.5.0.8 - 02. June 2021 =
@@ -555,14 +559,14 @@ Warning: Smart Slider 3.5 is not backwards compatible! Before upgrading check th
 
 
 = 3.4.1.16 - 18. January 2021 =
-* Fix: WP Rocket compatibility 
+* Fix: WP Rocket compatibility
 * Fix: B tag line break in Chrome
 
 = 3.4.1.15 - 13. January 2021 =
-* Feature: PHP 8 compatibility 
-* Fix: WordPress post generator dates 
-* Fix: Thumbnail hover switching 
-* Fix: WP Rocket compatibility 
+* Feature: PHP 8 compatibility
+* Fix: WordPress post generator dates
+* Fix: Thumbnail hover switching
+* Fix: WP Rocket compatibility
 
 = 3.4.1.14 - 26. November 2020 =
 * Feature: Accessibility improvements
@@ -584,14 +588,14 @@ Warning: Smart Slider 3.5 is not backwards compatible! Before upgrading check th
 * Fix: Autoptimize lazy loading cause flickering background image
 
 = 3.4.1.10 - 27. October 2020 =
-* Feature: Certain HTML tags are enabled in the Heading layer. [See the full list](https://smartslider.helpscoutdocs.com/article/1814-heading-layer#supported-tags) of supported tags. 
+* Feature: Certain HTML tags are enabled in the Heading layer. [See the full list](https://smartslider.helpscoutdocs.com/article/1814-heading-layer#supported-tags) of supported tags.
 * Feature: Post slug variable for WordPress Post generator
-* Fix: WP Rocket compatibility 
-* Fix: Alias switching 
-* Fix: Rename in layer list and Breakpoint value change in Safari 
-* Fix: Nested Absolute layers in column 
-* Fix: Output buffer for Speed Booster Pack cache 
-* Fix: Slider loading optimization 
+* Fix: WP Rocket compatibility
+* Fix: Alias switching
+* Fix: Rename in layer list and Breakpoint value change in Safari
+* Fix: Nested Absolute layers in column
+* Fix: Output buffer for Speed Booster Pack cache
+* Fix: Slider loading optimization
 * Fix: Simply Exclude plugin added to conflict list.
 * Fix: PageSpeed ninja plugin compatibility (enabled Gzip caused missing files.)
 
@@ -636,35 +640,35 @@ Warning: Smart Slider 3.5 is not backwards compatible! Before upgrading check th
 
 = 3.4.1.6 - 19. May 2020. =
 * Warning: 3.4 version is not backwards compatible! After installing this version, you won't be able to go back to 3.3.x.
-* Smart Slider 3.4 no longer supports [Internet Explorer browser at all](https://www.zdnet.com/article/microsoft-security-chief-ie-is-not-a-browser-so-stop-using-it-as-your-default/)! 
-* Feature: Content mode was renamed to Default and Canvas mode is now called Absolute. 
-* Feature: Completely redesigned UI 
+* Smart Slider 3.4 no longer supports [Internet Explorer browser at all](https://www.zdnet.com/article/microsoft-security-chief-ie-is-not-a-browser-so-stop-using-it-as-your-default/)!
+* Feature: Content mode was renamed to Default and Canvas mode is now called Absolute.
+* Feature: Completely redesigned UI
 * Feature: [Breakpoint system](https://smartslider.helpscoutdocs.com/article/1774-slider-settings-size#breakpoints)
-* Feature: [Nesting](https://smartslider.helpscoutdocs.com/article/1916-slide-editing-in-smart-slider-3#nesting) 
+* Feature: [Nesting](https://smartslider.helpscoutdocs.com/article/1916-slide-editing-in-smart-slider-3#nesting)
 * Feature: [Layer list](https://smartslider.helpscoutdocs.com/article/1815-layer-list)
-* Feature: Focus selector for background images 
+* Feature: Focus selector for background images
 * Feature: [New Preview](https://smartslider.helpscoutdocs.com/article/1764-slider-settings#preview)
 * Feature: [Contextual menu](https://smartslider.helpscoutdocs.com/article/1815-layer-list#contextual-menu)
-* Feature: Orion theme updated for [Slide Library](https://smartslider.helpscoutdocs.com/article/1765-slide-editor#slide-library) 
+* Feature: Orion theme updated for [Slide Library](https://smartslider.helpscoutdocs.com/article/1765-slide-editor#slide-library)
 * Feature: More [Slide Library](https://smartslider.helpscoutdocs.com/article/1765-slide-editor#slide-library) templates are available for free users
-* Feature: [Block type](https://smartslider.helpscoutdocs.com/article/1800-block-type) available in Free version 
-* Feature: Slider trash 
-* Feature: Stop autoplay on added to the free version 
-* Feature: Hide controls on devices added to the free version 
+* Feature: [Block type](https://smartslider.helpscoutdocs.com/article/1800-block-type) available in Free version
+* Feature: Slider trash
+* Feature: Stop autoplay on added to the free version
+* Feature: Hide controls on devices added to the free version
 * Feature: [Loading type](https://smartslider.helpscoutdocs.com/article/1803-slider-settings-loading) options
 * Feature: Sliders now render in Nimble Builder's editor when their shortcode is used in the builder's shortcode or rich text editor module
-* Fix: WordPress Gutenberg editor language won't change to English on non-English sites 
-* Fix: PHP 7.4 fixes 
-* Fix: Sliders will no longer run on pages which are optimized by AMP on WordPress – weeblrAMP CE 
-* Fix: Alias is removed from duplicated slider 
-* Fix: Compatibility with BuddyBoss theme 
-* Fix: Slider's inline JavaScript - Into the slider 
-* Fix: Scroll on older iPad devices 
-* Fix: SG Optimizer compatibility (?ver= for assets) 
+* Fix: WordPress Gutenberg editor language won't change to English on non-English sites
+* Fix: PHP 7.4 fixes
+* Fix: Sliders will no longer run on pages which are optimized by AMP on WordPress – weeblrAMP CE
+* Fix: Alias is removed from duplicated slider
+* Fix: Compatibility with BuddyBoss theme
+* Fix: Slider's inline JavaScript - Into the slider
+* Fix: Scroll on older iPad devices
+* Fix: SG Optimizer compatibility (?ver= for assets)
 * Fix: Slider not showing in the content in Thrive theme
-* Fix: Essential Grid conflict 
-* Fix: Oxygen builder force iframe in editor 
-* Fix: Adding .intrinsic-ignore class to frontend iframes and videos to prevent TwentyTwenty bug 
+* Fix: Essential Grid conflict
+* Fix: Oxygen builder force iframe in editor
+* Fix: Adding .intrinsic-ignore class to frontend iframes and videos to prevent TwentyTwenty bug
 * Fix: Horizontal thumbnail JS error
 * Fix: Updating from 3.3.x with an empty Max height will no longer cause 0px tall slider
 * Fix: WordPress Multisite conflict with Network Media Library plugin
@@ -673,8 +677,8 @@ Warning: Smart Slider 3.5 is not backwards compatible! Before upgrading check th
 * Fix: Slide background without background image in Layer window
 * Fix: OceanWP notice removed from slide editor
 * Fix: Cursor during canvas interactions at the Slide Editor
-* Other: Gantry 4 Mootools conflict test added to Help Center 
-* Other: Debug info now shows opcache and opcache.revalidate_freq  
+* Other: Gantry 4 Mootools conflict test added to Help Center
+* Other: Debug info now shows opcache and opcache.revalidate_freq
 
 
 = 3.3.28 - 25. March 2020. =
